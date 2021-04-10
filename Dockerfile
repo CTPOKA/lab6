@@ -1,5 +1,5 @@
 FROM centos
-COPY lab5.py .
+COPY lab6.py .
 RUN yum install epel-release -y
 RUN yum install python36 -y
-CMD python3 lab5.py
+CMD python3 lab6.py
